@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 24b8f5a893f5d544fac97f5d36c08f50
+guid: 708418d3e9e9df84f9d70b50331c42f9
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,9 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: -4318985030774379662, guid: 4a50ce3095cd6ad468ac2e0448459d76,
-      type: 3}
+      name: bowl
+    second: {fileID: 2100000, guid: 4f312c54a4c11b644bc65823f95d4c23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2100000, guid: aadf8be53e7e9ac46bd74d69d33cd49b, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
