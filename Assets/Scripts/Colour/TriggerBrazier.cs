@@ -23,4 +23,9 @@ public class TriggerBrazier : MonoBehaviour
             }
         }
     }
+
+    public bool GetTriggered()
+    { 
+        return triggered; 
+    }
 }
