@@ -8,8 +8,12 @@ public class ActivatableMove : Activatable
 
     public override bool Activate()
     {
-        Debug.Log("Activatable " + gameObject.name + " activated");
-        StartCoroutine(LerpPosition(targetCoords, 5));
+        if (!activated)
+        {
+            Debug.Log("Activatable " + gameObject.name + " activated");
+            StartCoroutine(LerpPosition(targetCoords, 5));
+            activated = true;
+        }
         return true;
     }
 
