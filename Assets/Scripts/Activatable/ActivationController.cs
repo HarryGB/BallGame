@@ -11,7 +11,7 @@ public class ActivationController : MonoBehaviour
     {
         foreach (TriggerBrazier trigger in triggers)
         {
-            if (!trigger.GetTriggered())
+            if (!trigger.GetTriggered() || trigger.GetColour() == FlameColour.NONE)
                 return;
         }
         foreach (Activatable activatable in activatables)

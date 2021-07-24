@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ColourController : MonoBehaviour
 {
@@ -19,11 +17,11 @@ public class ColourController : MonoBehaviour
         UpdateColour(defaultColour);
     }
 
-    public void ToggleVisibility()
+    public void ChangeVisibility(bool newVis)
     {
-        visible = !visible;
-        fireParticles.Play(visible);
-        fireLight.enabled = visible;
+        visible = newVis;
+        fireParticles.Play(newVis);
+        fireLight.enabled = newVis;
     }
 
     public void UpdateColour(FlameColour newFlameColour)

@@ -2,30 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerBrazier : MonoBehaviour
+public abstract class TriggerBrazier : MonoBehaviour
 {
-    private ColourController controller;
-    private bool triggered; 
+    protected ColourController controller;
+    protected bool triggered;
     private void Start()
     {
         controller = this.GetComponent<ColourController>();
         triggered = false;
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Player") && !triggered)
-        {
-            if (controller.defaultColour == collision.gameObject.GetComponent<ColourController>().currentColour)
-            {
-                controller.ToggleVisibility();
-                triggered = true;
-            }
-        }
-    }
-
     public bool GetTriggered()
     { 
         return triggered; 
+    }
+
+    public FlameColour GetColour()
+    {
+        return controller.currentColour;
     }
 }

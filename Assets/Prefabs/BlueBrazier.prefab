@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 82bc3e78cabe1f8408d1aed227c3e430, type: 2}
-  defaultColour: 1
+  defaultColour: 2
   currentColour: 0
   fireParticles: {fileID: 1681730882694676677}
   fireLight: {fileID: 1681730882694676699}
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1681730881780441340}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7cac2b201d54ba4eb89e4e898518db1, type: 3}
+  m_Script: {fileID: 11500000, guid: 10b373e0d0069594dae419afe1a2dac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1681730882198204190

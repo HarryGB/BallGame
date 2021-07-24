@@ -4,6 +4,7 @@ using UnityEngine;
 
 public enum FlameColour
 {
+    NONE,
     RED,
     BLUE,
     GREEN,
