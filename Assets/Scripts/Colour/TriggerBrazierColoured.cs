@@ -16,6 +16,8 @@ public class TriggerBrazierColoured : TriggerBrazier
                 controller.UpdateColour(controller.defaultColour);
                 controller.ChangeVisibility(true);
                 triggered = true;
+
+                audioCon.AddTrack((int)controller.currentColour);
             }
         }
     }

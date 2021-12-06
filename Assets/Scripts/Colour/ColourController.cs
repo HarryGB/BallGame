@@ -10,7 +10,6 @@ public class ColourController : MonoBehaviour
     public Light fireLight;
     private bool visible;
 
-
     private void Start()
     {
         visible = fireParticles.isPlaying;

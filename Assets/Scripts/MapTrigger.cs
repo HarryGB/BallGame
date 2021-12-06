@@ -6,9 +6,12 @@ public class MapTrigger : MonoBehaviour
 {
     private MapController controller;
     private bool active = true;
+    private AudioController audioCon;
+
     private void Start()
     {
         controller = FindObjectOfType<MapController>();
+        audioCon = FindObjectOfType<AudioController>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -20,6 +23,7 @@ public class MapTrigger : MonoBehaviour
             {
                 controller.UpdateRooms();
                 active = false;
+                audioCon.ResetTracks();
             }
         }
     }
