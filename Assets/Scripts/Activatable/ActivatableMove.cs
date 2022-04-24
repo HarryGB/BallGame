@@ -4,15 +4,37 @@ using UnityEngine;
 
 public class ActivatableMove : Activatable
 {
-    public Vector3 targetCoords;
+    [SerializeField]
+    private Vector3 targetCoordsRelative; //relative to start position
+    [SerializeField]
+    private bool reversable;
+    [SerializeField]
+    private int moveDuration;
+
+    private Vector3 startCoords;
+    private Vector3 targetCoords;
+
+    private void Start()
+    {
+        startCoords = this.transform.position;
+        targetCoords = startCoords + targetCoordsRelative;
+    }
 
     public override bool Activate()
     {
+        Debug.Log("running activate");
         if (!activated)
         {
             Debug.Log("Activatable " + gameObject.name + " activated");
-            StartCoroutine(LerpPosition(targetCoords, 5));
+            StartCoroutine(LerpPosition(targetCoords, moveDuration));
             activated = true;
+        }
+        else if (reversable)
+        {
+            Debug.Log("Activatable " + gameObject.name + " REVERSING");
+            StartCoroutine(LerpPosition(startCoords, moveDuration));
+            activated = true;
+            reversable = false;
         }
         return true;
     }

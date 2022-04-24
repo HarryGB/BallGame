@@ -16,14 +16,16 @@ public class MapTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (active)
+        if (active && other.tag == "Player")
         {
-            Debug.Log("Collision!");
+            Debug.Log("Entering next room");
             if (other.gameObject.tag.Equals("Player"))
             {
                 controller.UpdateRooms();
                 active = false;
                 audioCon.ResetTracks();
+                //returns object to previous position, not a nice way of doing it
+                GetComponentInParent<ActivatableMove>().Activate();
             }
         }
     }

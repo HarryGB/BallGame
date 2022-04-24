@@ -14,8 +14,10 @@ public enum FlameColour
 [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/DataContainer", order = 1)]
 public class DataContainer : ScriptableObject
 {
-    public FlameColour flameColours; //for quick reference in editor
-    public Color[] FlameValues;
+    [SerializeField]
+    private FlameColour flameColours; //for quick reference in editor
+    [SerializeField]
+    private Color[] FlameValues;
 
     public Color GetColour(FlameColour name)
     {

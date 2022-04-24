@@ -2,7 +2,8 @@
 
 public class ColourController : MonoBehaviour
 {
-    public DataContainer data;
+    [SerializeField]
+    private DataContainer data;
 
     public FlameColour defaultColour;
     public FlameColour currentColour;
