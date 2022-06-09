@@ -1,0 +1,7 @@
+ - reimport models as smooth
+ - increase light sampling (or whatever its called)
+ - add colliders to models
+ - add ambient background noise
+ - add flame sounds
+ - add ball sounds
+ - build map
