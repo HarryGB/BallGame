@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SnowOnRock1
+  m_Name: SnowOnRock2
   m_Shader: {fileID: -6465566751694194690, guid: cee61e9a5ed55bb4a8e2c01416f362b9,
     type: 3}
   m_ShaderKeywords: 
@@ -42,6 +42,6 @@ Material:
     - Vector1_5D135FF9: 0.328
     - Vector1_E729CF29: 4.36
     m_Colors:
-    - Vector2_AE9CB22: {r: 2, g: 2, b: 0, a: 0}
+    - Vector2_AE9CB22: {r: 1, g: 5, b: 0, a: 0}
     - Vector2_F2DB2A41: {r: 1, g: 2, b: 22.86, a: 0}
     - Vector3_6B252C5E: {r: 0, g: 1, b: 0, a: 0}
