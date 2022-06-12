@@ -1,8 +1,17 @@
 fileFormatVersion: 2
-guid: b51b97c46cd45d341973a67dc33e247f
+guid: 13a3db56d421e9c4b804ef0cadf0201b
 ModelImporter:
   serializedVersion: 19301
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: 7334041984339638126
+    second: Wall Block 3|CubeAction
+  - first:
+      74: 2287970633616699712
+    second: Wall Block 3|CubeAction.001
+  - first:
+      74: 7646121846811598243
+    second: Wall Block 3|CubeAction.002
   externalObjects: {}
   materials:
     materialImportMode: 1
