@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SnowOnRock2
+  m_Name: SnowOnFloor1
   m_Shader: {fileID: -6465566751694194690, guid: cee61e9a5ed55bb4a8e2c01416f362b9,
     type: 3}
   m_ShaderKeywords: 
@@ -21,18 +21,27 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_15B3E05C:
-        m_Texture: {fileID: 2800000, guid: e4787a00492e38f4c87364ab17708a93, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4e279aed9dfe59c46a7f39e5037b118a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_1E35A10F:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_80607D72:
-        m_Texture: {fileID: 2800000, guid: 4b0726379c06d854d913abf10f32cb4e, type: 3}
+        m_Texture: {fileID: 2800000, guid: e4787a00492e38f4c87364ab17708a93, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F98EA5B6:
+        m_Texture: {fileID: 2800000, guid: 4e279aed9dfe59c46a7f39e5037b118a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_2CD47CCE: 1.7
+    - Vector1_2CD47CCE: 5.73
     - Vector1_59CDE2AD: 0
-    - Vector1_5D135FF9: 0.87
-    - Vector1_E729CF29: 6.65
+    - Vector1_5D135FF9: 0.27
+    - Vector1_E729CF29: 3.67
     m_Colors:
-    - Vector2_AE9CB22: {r: 1.88, g: 1.31, b: 0, a: 0}
-    - Vector3_6B252C5E: {r: 0, g: 1, b: 0, a: 0}
+    - Vector2_AE9CB22: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_F2DB2A41: {r: 1, g: 2, b: 22.86, a: 0}
+    - Vector3_6B252C5E: {r: 0, g: 0.63, b: 0, a: 0}

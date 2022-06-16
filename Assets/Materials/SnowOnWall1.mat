@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SnowOnRock2
+  m_Name: SnowOnWall1
   m_Shader: {fileID: -6465566751694194690, guid: cee61e9a5ed55bb4a8e2c01416f362b9,
     type: 3}
   m_ShaderKeywords: 
@@ -29,10 +29,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_2CD47CCE: 1.7
+    - Vector1_2CD47CCE: 1.41
     - Vector1_59CDE2AD: 0
-    - Vector1_5D135FF9: 0.87
-    - Vector1_E729CF29: 6.65
+    - Vector1_5D135FF9: 0.94
+    - Vector1_E729CF29: 1.96
     m_Colors:
-    - Vector2_AE9CB22: {r: 1.88, g: 1.31, b: 0, a: 0}
+    - Vector2_AE9CB22: {r: 1, g: 1, b: 0, a: 0}
     - Vector3_6B252C5E: {r: 0, g: 1, b: 0, a: 0}
