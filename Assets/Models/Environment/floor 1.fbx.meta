@@ -1,8 +1,11 @@
 fileFormatVersion: 2
-guid: 708418d3e9e9df84f9d70b50331c42f9
+guid: 8f8ccb2a61c36e34086c6606fbfffead
 ModelImporter:
   serializedVersion: 19301
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: 5227473532250891312
+    second: floor 1|Cube.001Action
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -62,8 +65,8 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
-    tangentImportMode: 2
+    normalImportMode: 0
+    tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
